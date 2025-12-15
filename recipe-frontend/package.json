@@ -1,0 +1,31 @@
+{
+  "name": "recipe-frontend",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.2",
+    "@vue/apollo-composable": "^4.0.0-beta.2",
+    "@vee-validate/nuxt": "^4.15.1",
+    "@vee-validate/yup": "^4.15.1",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "nuxt": "^4.2.1",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}
