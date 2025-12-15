@@ -1,14 +1,16 @@
-# Node
+# dependencies
 node_modules/
-dist/
+.nuxt/
 
-# Go
-bin/
-*.exe
-
-# Env
+# env files
 .env
+
+# builds
+dist/
+coverage/
+
+# editor
+.vscode/
 
 # OS
 .DS_Store
-Thumbs.db
